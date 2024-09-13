@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+	<title>animated terminal</title>
+
+</head>
+<body class="w-ful h-[1000px] xl:h-screen bg-gradient-to-r from-blue-800 to-blue-400 justify-center flex items-center flex-col xl:flex-row" >
+	<div class="relative w-1/2 h-ful flex items-center justify-center ">
+		<div class="z-10 bg-gray-800 rounded-lg  w-terminal custom-shadow">
+			<div class="flex items-center" >
+				<div class="flex items-center space-x-2 p-3 " >
+					<div class="rounded-full w-3 h-3 bg-red-500"></div>
+					<div class="rounded-full w-3 h-3 bg-yellow-500"></div>
+					<div class="rounded-full w-3 h-3 bg-green-500"></div>
+				</div>
+				<h1 class="text-blue-500 font-light">tailwind.config.js</h1>
+			</div>
+				<pre class="p-0">
+					<code class="overflow-hidden h-96 bg-gray-800 p-0">
+			module.exports = {	
+		  	content: [],
+		 		theme: {
+		    		extend: {
+
+		    			},
+		  			},
+		  			plugins: [],
+				}
+
+
+					</code>
+		</pre>
+		</div>
+	
+		<div class="bg-gray-800 z-0 rounded-lg h-96 w-terminal custom-shadow rotate-6 absolute translate-x-6 -translate-y-8 opacity-75">
+				<div class="flex items-center space-x-2 p-3 " >
+					<div class="rounded-full w-3 h-3 bg-red-500"></div>
+					<div class="rounded-full w-3 h-3 bg-yellow-500"></div>
+					<div class="rounded-full w-3 h-3 bg-green-500"></div>
+				</div>
+		</div>
+	</div>
+
+
+
+      <!-- right -->
+	<div class="w-1/2 h-ful flex items-center justify-center scale-75 md:scale-125 mt-48 xl:mt-0 ">
+		
+			<img src="./images/swith.jpg" class="custom-shadow sm:w-80 sm:h-80 rounded-full border-4 border-white w-40 h-40">
+		<!-- inner	 -->		
+			<div class="hw-inner flex justify-between items-center absolute border border-gray-800 rounded-full animate-spin-slow ">
+				<div class=" items-center justify-center  bg-white rounded-full -translate-x-5 translate-y-12 border-2 border-white custom-shadow h-10 w-10">
+					<img class="object-center  w-full h-full rounded-full anime-8s animate-rotate-img" src="./images/swith.jpg">
+				</div>
+				<div class=" items-center justify-center overflow-hidden translate-x-5  bg-white -translate-y-12 rounded-full border-2 border-white custom-shadow h-10 w-10">
+					<img class="object-center  w-full h-full rounded-full anime-8s animate-rotate-img" src="./images/swith.jpg">
+				</div>
+			</div>
+
+
+			<!-- outer -->
+				<div class="hw-outer flex justify-between items-center absolute border border-gray-800 rounded-full animate-spin-slow anime-8s">
+
+					<div class="flex justify-between" >
+						<div class=" items-center justify-center  bg-white rounded-full -translate-x-2 translate-y-28 border-2 border-white custom-shadow h-10 w-10">
+							<img class="object-center  w-full h-full rounded-full anime-8s animate-rotate-img" src="./images/swith.jpg">
+						</div>
+						<div class=" items-center justify-center overflow-hidden translate-x-10   bg-white rounded-full border-2 border-white custom-shadow h-10 w-10">
+							<img class="object-center  w-full h-full rounded-full anime-8s animate-rotate-img" src="./images/swith.jpg">
+						</div>
+					</div>	
+
+
+					<div class="flex justify-between" >
+						<div class=" items-center justify-center  bg-white rounded-full -translate-x-10 tran border-2 border-white custom-shadow h-10 w-10">
+							<img class="object-center  w-full h-full rounded-full anime-8s animate-rotate-img" src="./images/swith.jpg">
+						</div>
+						<div class=" items-center justify-center overflow-hidden -translate-x-2  bg-white rounded-full border-2 border-white custom-shadow -translate-y-32 h-10 w-10">
+							<img class="object-center  w-full h-full rounded-full anime-8s animate-rotate-img" src="./images/swith.jpg">
+						</div>
+					</div>	
+
+
+			</div>
+	</div>
+
+
+
+
+<script>hljs.highlightAll();</script>				
+</body>
+</html>

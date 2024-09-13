@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+	.custom-shadow{
+		box-shadow: 0 0 15pc rgba(0,0,0,0.5);
+	}
+	.w-terminal{
+		width: 34rem;
+	}
+	.hw-inner{
+		width: 28rem;
+		height: 28rem;
+	}
+	.hw-outer{
+		width: 32rem;
+		height: 32rem;
+	}
+	.anime-8s{
+		animation-duration: 8s !important;
+	}
+
+
+}
